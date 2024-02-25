@@ -366,10 +366,7 @@ const Updates = decorate([
                   <fieldset disabled={COMMUNITY}>
                     <div className='form-group mb-1'>
                       <Select
-                      //!!#!!
-                        //disabled={COMMUNITY}
-                        disabled = {false}
-
+                        disabled={COMMUNITY}
                         isLoading={state.channelsOptions === undefined}
                         onChange={effects.onChannelChange}
                         options={state.channelsOptions}

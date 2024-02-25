@@ -1,0 +1,135 @@
+{
+    "acls": [],
+    "authTokens": [
+        {
+            "user_id": "2cb6c934-5874-4d95-af3a-000bd2c6e40f",
+            "expiration": 1711381869477,
+            "id": "yTCpyCOsvmtmQX7ogfIhS2UTtRM9mVtv95nAYC9S6i0"
+        },
+        {
+            "user_id": "2cb6c934-5874-4d95-af3a-000bd2c6e40f",
+            "expiration": 1711381274094,
+            "id": "1emb0-w-9SSeT3RXlPgTREZ1y4y8QoFH3qzf3FRULM8"
+        },
+        {
+            "user_id": "2cb6c934-5874-4d95-af3a-000bd2c6e40f",
+            "expiration": 1711383816998,
+            "id": "UIgqxHBw9BddIHUKzJ91rbBS_6pcY1JFJiClQRUAbqA"
+        }
+    ],
+    "cloudConfigs": [],
+    "jobs": [],
+    "plugins": [
+        {
+            "autoload": true,
+            "id": "sdn-controller"
+        },
+        {
+            "autoload": true,
+            "id": "netdata"
+        },
+        {
+            "autoload": true,
+            "id": "auth-github"
+        },
+        {
+            "autoload": true,
+            "id": "backup-reports"
+        },
+        {
+            "autoload": true,
+            "id": "load-balancer"
+        },
+        {
+            "autoload": true,
+            "id": "web-hooks"
+        },
+        {
+            "autoload": true,
+            "id": "transport-email"
+        },
+        {
+            "autoload": true,
+            "id": "usage-report"
+        },
+        {
+            "autoload": true,
+            "id": "transport-xmpp"
+        },
+        {
+            "autoload": true,
+            "id": "auth-ldap"
+        },
+        {
+            "autoload": true,
+            "id": "auth-google"
+        },
+        {
+            "autoload": true,
+            "id": "transport-nagios"
+        },
+        {
+            "autoload": true,
+            "id": "audit"
+        },
+        {
+            "autoload": true,
+            "id": "transport-icinga2"
+        },
+        {
+            "autoload": true,
+            "id": "transport-slack"
+        },
+        {
+            "autoload": true,
+            "id": "perf-alert"
+        },
+        {
+            "autoload": true,
+            "id": "auth-oidc"
+        },
+        {
+            "autoload": true,
+            "id": "auth-saml"
+        },
+        {
+            "autoload": true,
+            "id": "netbox"
+        },
+        {
+            "autoload": true,
+            "id": "telemetry"
+        },
+        {
+            "autoload": true,
+            "id": "xoa"
+        }
+    ],
+    "proxies": [],
+    "remotes": [],
+    "schedules": [],
+    "groups": [],
+    "users": [
+        {
+            "permission": "admin",
+            "email": "admin@admin.net",
+            "pw_hash": "$argon2i$v=19$m=4096,t=3,p=1$R3bdrNuLc4QcHZBV8Zvo0w$vdRe4gsDwr1RBOJ8D4hn3DDyGL0YGjEebAkvrr27gmk",
+            "groups": [],
+            "preferences": {},
+            "id": "2cb6c934-5874-4d95-af3a-000bd2c6e40f"
+        }
+    ],
+    "xenServers": [
+        {
+            "allowUnauthorized": true,
+            "host": "10.21.250.22",
+            "password": "Blou!!Vis##Bok5",
+            "username": "root",
+            "enabled": true,
+            "readOnly": false,
+            "id": "768fe9b5-9716-4eb6-bab6-ed594f6a19c9"
+        }
+    ],
+    "resourceSets": [],
+    "ipPools": []
+}
